@@ -3,6 +3,10 @@ sudo apt-get update
 echo 'installing curl' 
 sudo apt install curl -y
 
+echo 'install sdkman'
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
 echo 'installing git' 
 sudo apt install git -y
 
